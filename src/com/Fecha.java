@@ -23,7 +23,7 @@ public class Fecha {
 		Instant instant = temp.toInstant();
         LocalDate nacim = instant.atZone(ZoneId.systemDefault()).toLocalDate();
         if (nacim.isAfter(currentDate)) {
-        	System.out.println("pasaghgggh");
+        	System.out.println("pasa 33333333333333");
         }
         
 //        LocalDate dt1 = LocalDate.parse("2018-11-27");
